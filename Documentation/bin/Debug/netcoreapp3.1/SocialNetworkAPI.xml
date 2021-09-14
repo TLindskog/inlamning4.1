@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SocialNetworkAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Documentation.Controllers.PostsController.GetPosts">
+            <summary>
+            Fetches all posts.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Documentation.Controllers.PostsController.GetPost(System.Int32)">
+            <summary>
+            Fetches the post based on the given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Documentation.Controllers.PostsController.CreatePost(APILibrary.Models.Todos.PostDto)">
+             <summary>
+             Creates a new post. Using the todoDto.
+             </summary>
+            <param name="postDto"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Documentation.Controllers.PostsController.ReplacePost(System.Int32,APILibrary.Models.Todos.PostDto)">
+            <summary>
+            Replaces an existing post with a new todo. All properties will be rpalced with the given post object. No new id will be created. It will be conserved.
+            </summary>
+            <param name="id"></param>
+            <param name="postPut"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Documentation.Controllers.PostsController.LikeOrUnlikeAPost(System.Int32,System.Int32)">
+            <summary>
+            Likes or unlikes a post for a specific user.
+            </summary>
+            <param name="postid"></param>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Documentation.Controllers.PostsController.RemoveALikeToAPost(System.Int32,System.Int32)">
+            <summary>
+            Unlikes a post for a specific user.
+            </summary>
+            <param name="postid"></param>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Documentation.Controllers.PostsController.UpdatePost(System.Int32,System.Int32,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Selectively updates properties on an existing post.
+            </summary>
+            <param name="postId"></param>
+            <param name="userid"></param>
+            <param name="patches"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Documentation.Controllers.PostsController.DeletePost(System.Int32,System.Int32)">
+            <summary>
+            Deletes an existing post based on id. 
+            </summary>
+            <param name="postid"></param>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Documentation.Controllers.UsersController.GetUsers">
+            <summary>
+            Fetches all users.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Documentation.Controllers.UsersController.GetUser(System.Int32)">
+            <summary>
+            Fetches an user based on the given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Documentation.Controllers.UsersController.CreateUser(APILibrary.Models.Users.User)">
+            <summary>
+            Creates a new user.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Documentation.Controllers.UsersController.DeleteUser(System.Int32)">
+            <summary>
+            Deletes an existing todo based on the given id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

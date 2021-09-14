@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vnYKf5d9NuTbIEsndTXB5Iv4dywddIzyKuUpn+zELw54vrk4dZck2fAV/BjOmImCsqoruB1jWflcYbZEY8kD2w==",
+  "success": true,
+  "projectFilePath": "C:\\workspace\\Inlamningsuppgift4_social_network\\TodoLibrary\\APILibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\T430\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\T430\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\T430\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
